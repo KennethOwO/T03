@@ -186,7 +186,7 @@ figcaption {
 #q4 img,
 #q5 img,
 #q6 img {
-  max-width: 70%;   /* 图片最大宽度改为容器的 70% */
+  max-width: 10%;   /* 图片最大宽度改为容器的 70% */
   height: auto;
   display: block;
   margin: 0 auto;   /* 保持水平居中 */
