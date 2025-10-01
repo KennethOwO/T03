@@ -132,7 +132,7 @@ main .home-img{
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.7); /* 阴影真正生效 */
 }
 
-/* ====== Television Data Story Styles ====== */
+/* ====== Television Styles ====== */
 .data-story { 
   margin-block: 2rem 3rem; 
 }
@@ -207,6 +207,18 @@ figcaption {
   text-align: justify;
 }
 
-/* ====== End of Television Data Story Styles ====== */
+/* ====== End of Television Styles ====== */
 
+/* ====== About us Styles ====== */
+aboutus-section {
+  text-align: justify;
+}
 
+/* ====== End of About us Styles ====== */
+
+/* ====== index Styles ====== */
+index-section {
+  text-align: justify;
+}
+
+/* ====== End of About us Styles ====== */
