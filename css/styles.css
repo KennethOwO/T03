@@ -210,14 +210,14 @@ figcaption {
 /* ====== End of Television Styles ====== */
 
 /* ====== About us Styles ====== */
-aboutus-section {
+.aboutus-section p{
   text-align: justify;
 }
 
 /* ====== End of About us Styles ====== */
 
 /* ====== index Styles ====== */
-index-section {
+.index-section p{
   text-align: justify;
 }
 
