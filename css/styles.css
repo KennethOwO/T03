@@ -109,7 +109,11 @@ main {
 /* 简单主内容 */
 main{ padding:28px 0 }
 h1{ margin:0 0 12px }
-p{ line-height:1.6 }
+
+p{ 
+  line-height:1.6;
+  text-align: justify; 
+}
 
 /* 无障碍隐藏文本 */
 .sr-only{
