@@ -192,6 +192,13 @@ figcaption {
   margin: 0 auto;   /* 保持水平居中 */
 }
 
+#q1 img {
+  max-width: 60%;   /* Q1 图片最大宽度为容器的 80% */
+  height: auto;
+  display: block;
+  margin: 0 auto;   /* 保持水平居中 */
+}
+
 /* ====== End of Television Data Story Styles ====== */
 
 
