@@ -6,41 +6,92 @@
   <title>Televisions | Energy Site</title>
   <link rel="stylesheet" href="css/styles.css" />
 </head>
+
 <body>
+  <!-- 动态导航挂载点 -->
   <div id="site-header"></div>
 
-    <main class="container">
-        <h1 class="start">Televisions</h1>
+  <main class="container">
+    <section class="data-story">
+      <h1>Data Story: TV Energy Consumption in Australia</h1>
+      <p class="lede">
+        These visualisations summarise what is available in the Australian TV market and how design choices affect energy use.
+        Each question below pairs a chart with a short takeaway so readers can quickly understand the insight.
+      </p>
+    </section>
 
-        <p>
-            Televisions are one of the most common appliances in Australian homes — and one of the biggest contributors
-            to household energy use. As screen sizes get larger and picture quality improves,
-            energy consumption can rise dramatically if you are not careful.
-        </p>
+    <!-- Q1 -->
+    <section class="q-section" id="q1">
+      <h2>1) What TV screen technologies are available and which are most frequent?</h2>
+      <p>We compare counts of models by screen technology. The pie chart shows share, while the bar shows exact counts.</p>
+      <div class="grid-2">
+        <figure>
+          <img src="images/Question1.png" alt="Share of models by screen technology (pie chart)" />
+          <figcaption>LCD (LED) accounts for the vast majority of models in the market.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/Question1_bar.png" alt="Counts of models by screen technology (bar chart)" />
+          <figcaption>Bar chart confirms the dominance of LCD (LED) vs standard LCD and OLED.</figcaption>
+        </figure>
+      </div>
+      <div class="callout"><strong>Takeaway:</strong> LCD (LED) dominates availability; OLED and standard LCD are much less common.</div>
+    </section>
 
-        <p>
-            <strong>Screen Size Matters:</strong> A 75-inch TV can use more than twice as much energy
-            as a 55-inch model of similar technology. Consider the right size for your room and viewing distance
-            before buying.
-        </p>
+    <!-- Q2 -->
+    <section class="q-section" id="q2">
+      <h2>2) What screen sizes are available, and which are most frequent?</h2>
+      <p>Counts per screen-size category highlight the most common sizes consumers encounter in stores.</p>
+      <figure>
+        <img src="images/Question2.png" alt="Counts by screen-size category (bar chart)" />
+        <figcaption>Mid-to-large sizes (46–55&quot; and 56–65&quot;) are the most common in the dataset.</figcaption>
+      </figure>
+      <div class="callout"><strong>Takeaway:</strong> Australian shelves are led by 46–65 inch sets, matching current viewing preferences.</div>
+    </section>
 
-        <p>
-            <strong>Technology Choice:</strong> OLED and LED televisions are generally more efficient
-            than older plasma screens. Look for models with high star ratings under the
-            <a href="https://www.energyrating.gov.au/" target="_blank" rel="noopener">Australian Energy Rating Program</a>.
-        </p>
+    <!-- Q3 -->
+    <section class="q-section" id="q3">
+      <h2>3) Which brands have the greatest number of different models?</h2>
+      <p>This ranking shows which manufacturers offer the widest range of models.</p>
+      <figure>
+        <img src="images/Question3.png" alt="Brands ranked by number of models (bar chart)" />
+        <figcaption>Samsung Electronics, Kogan, and LG lead the market by model count.</figcaption>
+      </figure>
+      <div class="callout"><strong>Takeaway:</strong> The market is competitive, but a few brands dominate the product variety.</div>
+    </section>
 
-        <p>
-            <strong>Usage Habits:</strong> Energy consumption also depends on how long you watch TV.
-            Try enabling power-saving modes, lowering brightness, and turning off the TV completely
-            (not just leaving it on standby) when you are not watching.
-        </p>
+    <!-- Q4 -->
+    <section class="q-section" id="q4">
+      <h2>4) Which screen technology consumes the least power?</h2>
+      <p>Median average-mode power is compared by technology to avoid distortion from extreme values.</p>
+      <figure>
+        <img src="images/Question4.png" alt="Median average-mode power by technology (bar chart)" />
+        <figcaption>Standard LCD has the lowest median power, followed by LCD (LED), then OLED.</figcaption>
+      </figure>
+      <div class="callout"><strong>Takeaway:</strong> If energy use is your priority, standard LCDs tend to consume less in average mode.</div>
+    </section>
 
-        <p>
-            Our goal is to help you make smarter choices when buying and using televisions,
-            saving you money on electricity bills while reducing greenhouse gas emissions.
-        </p>
-    </main>
+    <!-- Q5 -->
+    <section class="q-section" id="q5">
+      <h2>5) What is the relationship between screen size and power use?</h2>
+      <p>A scatter plot of size versus average-mode power shows how demand scales with area.</p>
+      <figure>
+        <img src="images/Question5.png" alt="Scatter of screen size versus average-mode power" />
+        <figcaption>Power generally rises with screen size; larger panels draw more power on average.</figcaption>
+      </figure>
+      <div class="callout"><strong>Takeaway:</strong> Bigger screens usually mean higher energy consumption, even within the same technology.</div>
+    </section>
+
+    <!-- Q6 -->
+    <section class="q-section" id="q6">
+      <h2>6) What is the relationship between star rating and screen size?</h2>
+      <p>Plotting star ratings against sizes reveals how efficiency labels distribute across the range of sizes.</p>
+      <figure>
+        <img src="images/Question6.png" alt="Scatter of star rating versus screen size" />
+        <figcaption>High star ratings appear across many sizes; efficiency depends on model design rather than size alone.</figcaption>
+      </figure>
+      <div class="callout"><strong>Takeaway:</strong> Star rating and size are not tightly linked; shoppers should check the label for each model.</div>
+    </section>
+  </main>
 
   <div id="site-footer"></div>
   <script src="js/load-nav.js"></script>
